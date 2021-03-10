@@ -1,0 +1,50 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f4f4f4;
+	color: #333333;
+}
+
+.header {
+	text-align: center;
+	padding: 25px;
+}
+
+.nav a {
+	text-decoration: none;
+	padding: 14px 18px;
+	display: inline-block;
+}
+
+.content {
+	width: 960px;
+	margin: 20px auto;
+}
+
+.welcome {
+	background-color: #ffffff;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #cccccc;
+}
+
+.infobox {
+	width: 440px;
+	float: left;
+	background-color: #ffffff;
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #cccccc;
+}
+
+.hours td {
+	padding: 4px 10px 4px 0px;
+}
+
+.footer {
+	text-align: center;
+	padding: 15px;
+	clear: both;
+}
