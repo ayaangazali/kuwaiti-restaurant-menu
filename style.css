@@ -7,14 +7,38 @@ body {
 }
 
 .header {
+	background-color: #0b6623;
+	color: #ffffff;
 	text-align: center;
 	padding: 25px;
 }
 
+.header h1 {
+	margin: 0px;
+	font-size: 40px;
+	color: #d4af37;
+}
+
+.header p {
+	margin: 5px;
+	font-size: 16px;
+}
+
+.nav {
+	background-color: #094d1a;
+	overflow: hidden;
+}
+
 .nav a {
+	color: white;
 	text-decoration: none;
 	padding: 14px 18px;
 	display: inline-block;
+}
+
+.nav a:hover {
+	background-color: #d4af37;
+	color: #094d1a;
 }
 
 .content {
@@ -29,6 +53,10 @@ body {
 	border: 1px solid #cccccc;
 }
 
+.welcome h2 {
+	color: #0b6623;
+}
+
 .infobox {
 	width: 440px;
 	float: left;
@@ -39,12 +67,24 @@ body {
 	border: 1px solid #cccccc;
 }
 
+.infobox h3 {
+	color: #0b6623;
+	border-bottom: 2px solid #d4af37;
+	padding-bottom: 5px;
+}
+
 .hours td {
 	padding: 4px 10px 4px 0px;
 }
 
 .footer {
+	background-color: #094d1a;
+	color: #ffffff;
 	text-align: center;
 	padding: 15px;
 	clear: both;
+}
+
+a {
+	color: #0b6623;
 }
