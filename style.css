@@ -77,6 +77,50 @@ body {
 	padding: 4px 10px 4px 0px;
 }
 
+.menusection {
+	background-color: #ffffff;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #cccccc;
+}
+
+.menusection h3 {
+	color: #0b6623;
+	border-bottom: 2px solid #d4af37;
+	padding-bottom: 5px;
+	font-size: 22px;
+}
+
+.menulist {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menulist li {
+	padding: 10px 5px;
+	border-bottom: 1px dotted #cccccc;
+	overflow: hidden;
+}
+
+.price {
+	float: right;
+	color: #d4af37;
+	font-weight: bold;
+}
+
+.dishname {
+	font-weight: bold;
+	color: #333333;
+}
+
+.dishdesc {
+	display: block;
+	font-size: 13px;
+	color: #777777;
+	margin-top: 3px;
+}
+
 .footer {
 	background-color: #094d1a;
 	color: #ffffff;
