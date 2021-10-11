@@ -61,6 +61,15 @@ Email: info@diwaniyagrill.com</p>
 </div>
 
 <script>
+function toggleMenu() {
+  var x = document.getElementById("navlinks");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 function sendMessage() {
   alert("Thank you! Your message has been sent. We will contact you soon.");
   return false;
