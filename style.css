@@ -41,6 +41,10 @@ body {
 	color: #094d1a;
 }
 
+.navbtn {
+	display: none;
+}
+
 .content {
 	width: 960px;
 	margin: 20px auto;
@@ -137,4 +141,24 @@ input[type="text"], textarea {
 
 a {
 	color: #0b6623;
+}
+
+@media screen and (max-width: 980px) {
+	.content {
+		width: 90%;
+	}
+	.infobox {
+		width: auto;
+		float: none;
+		margin-right: 0px;
+	}
+	.navbtn {
+		display: block;
+	}
+	#navlinks {
+		display: none;
+	}
+	#navlinks a {
+		display: block;
+	}
 }
